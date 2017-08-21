@@ -15,6 +15,8 @@
 		6A78545F1F4AE311007F75F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A78545D1F4AE311007F75F8 /* LaunchScreen.storyboard */; };
 		6A78546A1F4AE311007F75F8 /* lesson_4_hwTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7854691F4AE311007F75F8 /* lesson_4_hwTests.m */; };
 		6A7854751F4AE311007F75F8 /* lesson_4_hwUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7854741F4AE311007F75F8 /* lesson_4_hwUITests.m */; };
+		6A7854841F4AE37C007F75F8 /* CarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7854831F4AE37C007F75F8 /* CarModel.m */; };
+		6A7854871F4AE39D007F75F8 /* Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7854861F4AE39D007F75F8 /* Parameters.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		6A7854701F4AE311007F75F8 /* lesson_4_hwUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lesson_4_hwUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A7854741F4AE311007F75F8 /* lesson_4_hwUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lesson_4_hwUITests.m; sourceTree = "<group>"; };
 		6A7854761F4AE311007F75F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A7854821F4AE37C007F75F8 /* CarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarModel.h; sourceTree = "<group>"; };
+		6A7854831F4AE37C007F75F8 /* CarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarModel.m; sourceTree = "<group>"; };
+		6A7854851F4AE39D007F75F8 /* Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parameters.h; sourceTree = "<group>"; };
+		6A7854861F4AE39D007F75F8 /* Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parameters.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				6A78545D1F4AE311007F75F8 /* LaunchScreen.storyboard */,
 				6A7854601F4AE311007F75F8 /* Info.plist */,
 				6A78544F1F4AE311007F75F8 /* Supporting Files */,
+				6A7854821F4AE37C007F75F8 /* CarModel.h */,
+				6A7854831F4AE37C007F75F8 /* CarModel.m */,
+				6A7854851F4AE39D007F75F8 /* Parameters.h */,
+				6A7854861F4AE39D007F75F8 /* Parameters.m */,
 			);
 			path = lesson_4_hw;
 			sourceTree = "<group>";
@@ -273,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A7854871F4AE39D007F75F8 /* Parameters.m in Sources */,
+				6A7854841F4AE37C007F75F8 /* CarModel.m in Sources */,
 				6A7854571F4AE311007F75F8 /* ViewController.m in Sources */,
 				6A7854541F4AE311007F75F8 /* AppDelegate.m in Sources */,
 				6A7854511F4AE311007F75F8 /* main.m in Sources */,
